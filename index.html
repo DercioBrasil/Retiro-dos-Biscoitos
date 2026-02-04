@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro dos Biscoitos - Reservas Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>🏨 Retiro dos Biscoitos</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero" style="background-image: url('Biscoitos fotos Dercio/IMG_E8507.JPG'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bem-vindo ao nosso alojamento</h1>
+            <p>Experiência única de conforto e hospitalidade</p>
+            <a href="#reservas" class="btn btn-primary">Reservar Agora</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre o Retiro dos Biscoitos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>O Seu Refúgio Perfeito</h3>
+                    <p>
+                        Oferecemos um ambiente acolhedor e confortável para tornar a sua estadia memorável. 
+                        Com instalações modernas e uma localização privilegiada, garantimos uma experiência única.
+                    </p>
+                    <ul class="features-list">
+                        <li>✓ Wi-Fi gratuito</li>
+                        <li>✓ Estacionamento incluído</li>
+                        <li>✓ Cozinha equipada</li>
+                        <li>✓ TV por cabo</li>
+                        <li>✓ Limpeza</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="Biscoitos fotos Dercio/IMG_E8508.JPG" alt="Retiro dos Biscoitos - Alojamento" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8507.JPG" alt="1" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8495.JPG" alt="2" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8514.JPG" alt="3" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8519.JPG" alt="4" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8529.JPG" alt="5" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8546.JPG" alt="6" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8547.JPG" alt="7" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8564.JPG" alt="8" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8567.JPG" alt="9" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8568.JPG" alt="10" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8569.JPG" alt="11" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8575.JPG" alt="12" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8579.JPG" alt="13" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8587.JPG" alt="14" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Biscoitos fotos Dercio/IMG_E8594.JPG" alt="15" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="reservations">
+        <div class="container">
+            <h2 class="section-title">Faça a Sua Reserva</h2>
+            
+            <!-- Links para Booking e Airbnb -->
+            <div class="booking-platforms">
+                <p class="platforms-intro">Também pode reservar através das nossas plataformas parceiras:</p>
+                <div class="platform-buttons">
+                    <a href="https://www.booking.com/hotel/pt/retiro-dos-biscoitos.pt-pt.html" target="_blank" rel="noopener noreferrer" class="btn btn-booking">
+                        <span>📅</span> Reservar no Booking.com
+                    </a>
+                    <a href="https://www.airbnb.pt/rooms/1389151982985061611?check_in=2026-03-26&check_out=2026-03-31&guests=1&adults=1&s=67&unique_share_id=fe74250e-5eff-4c6d-9aeb-1dc76e574293" target="_blank" rel="noopener noreferrer" class="btn btn-airbnb">
+                        <span>🏠</span> Reservar no Airbnb
+                    </a>
+                </div>
+            </div>
+
+            <div class="reservation-container">
+                <div class="reservation-form-wrapper">
+                    <form id="reservationForm" class="reservation-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkin">Data de Check-in *</label>
+                                <input type="date" id="checkin" name="checkin" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="checkout">Data de Check-out *</label>
+                                <input type="date" id="checkout" name="checkout" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="hospedes">Número de Hóspedes *</label>
+                            <select id="hospedes" name="hospedes" required>
+                                <option value="">Selecione...</option>
+                                <option value="1">1 Hóspede</option>
+                                <option value="2">2 Hóspedes</option>
+                                <option value="3">3 Hóspedes</option>
+                                <option value="4">4 Hóspedes</option>
+                                <option value="5">5 Hóspedes</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem (opcional)</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Alguma informação adicional?"></textarea>
+                        </div>
+
+                        <div class="price-summary">
+                            <div class="price-item">
+                                <span>Noites:</span>
+                                <span id="nightsCount">0</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Preço por noite:</span>
+                                <span id="pricePerNight">€0</span>
+                            </div>
+                            <div class="price-total">
+                                <span>Total:</span>
+                                <span id="totalPrice">€0</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Confirmar Reserva</button>
+                    </form>
+                </div>
+
+                <div class="calendar-wrapper">
+                    <h3>Disponibilidade</h3>
+                    <div id="calendar" class="calendar"></div>
+                    <div class="calendar-legend">
+                        <div class="legend-item">
+                            <span class="legend-available"></span>
+                            <span>Disponível</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-reserved"></span>
+                            <span>Reservado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>📧 Email:</strong> retirodosbiscoitos@gmail.com</p>
+                    <p><strong>📍 Morada:</strong> Canada do Caldeiro, 30, Ilha Terceira, Açores, Portugal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Retiro dos Biscoitos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Confirmação -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Reserva Confirmada! ✅</h2>
+            <div id="reservationDetails"></div>
+            <button class="btn btn-primary" onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
